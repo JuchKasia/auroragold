@@ -1,0 +1,15 @@
+@use './reset';
+@use './color' as color;
+
+
+html {
+    scroll-padding-top: 116px; 
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    color: color.$white;
+    font-family: 'Montserrat', sans-serif;
+    background-color: color.$bg-color;
+}
