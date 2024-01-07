@@ -28,4 +28,37 @@ body {
 .navbar-brand .logo-img {
   width: 110px;
   height: 100px;
+}
+
+.navbar {
+  width: 100%;
+  z-index: 5;
+  transition: background-color 0.3s;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.fa-bars {
+  color: #fff;
+}
+
+.navbar-nav .nav-link {
+  text-transform: uppercase;
+  color: #fff;
+}
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #d09f46;
+}
+
+.navbar-toggler {
+  padding: 10px 15px;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0;
 }/*# sourceMappingURL=style.css.map */

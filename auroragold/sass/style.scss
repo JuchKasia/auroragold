@@ -31,3 +31,39 @@ body {
     }
 }
 
+// NAVIGATION
+.navbar {
+    width: 100%;
+    z-index: 5;
+    transition: background-color .3s;
+    // border: 2px solid red;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    color: color.$white;
+}
+
+.fa-bars {
+    color: color.$white;
+}
+
+.navbar-nav {
+    .nav-link {
+        text-transform: uppercase;
+        color: color.$white;
+    }
+    .nav-link:focus,
+    .nav-link:hover,
+    .nav-link.active {
+        color: color.$main-color;
+    }
+}
+
+.navbar-toggler {
+    padding: 10px 15px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0;
+}
