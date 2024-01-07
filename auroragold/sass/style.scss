@@ -11,7 +11,8 @@ body {
     margin: 0 auto;
     color: color.$white;
     font-family: 'Montserrat', sans-serif;
-    background-color: color.$bg-color;
+    // background-color: color.$bg-color;
+    background-color: black;
 }
 
 .shadow-bg {
@@ -56,6 +57,10 @@ body {
     .nav-link:focus,
     .nav-link:hover,
     .nav-link.active {
+        color: color.$main-color;
+    }
+    .nav-link-help {
+        font-weight: 700;
         color: color.$main-color;
     }
 }
