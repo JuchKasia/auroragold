@@ -6,7 +6,28 @@
 
 // AOS.init();
 
+section {
+    padding: 40px 0;
+    width: 100%;
+}
 
+.section-title {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.text-title {
+    text-transform: uppercase;
+}
+
+.underline {
+    margin: 0 auto 40px;
+    width: 80px;
+    height: 4px;
+    background-color: color.$main-color;
+}
 
 html {
     scroll-padding-top: 116px; 
