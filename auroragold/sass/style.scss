@@ -203,3 +203,18 @@ section {
 }
 
 
+// MAIN 
+// Section ABOUT US
+.section-about-us {
+    color: color.$gray;
+    // border: 1px solid red;
+}
+
+.about-us-card-title {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.about-us-text {
+    font-size: 14px;
+}
