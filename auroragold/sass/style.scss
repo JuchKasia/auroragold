@@ -6,6 +6,23 @@
 
 // AOS.init();
 
+html {
+    scroll-padding-top: 116px; 
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    color: color.$white;
+    font-family: 'Montserrat', sans-serif;
+    // background-color: color.$bg-color;
+    background-color: black;
+}
+
+.shadow-bg {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
 section {
     padding: 40px 0;
     width: 100%;
@@ -28,28 +45,6 @@ section {
     height: 4px;
     background-color: color.$main-color;
 }
-
-html {
-    scroll-padding-top: 116px; 
-}
-
-body {
-    width: 100%;
-    margin: 0 auto;
-    color: color.$white;
-    font-family: 'Montserrat', sans-serif;
-    // background-color: color.$bg-color;
-    background-color: black;
-}
-
-.shadow-bg {
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-.text-title {
-    text-transform: uppercase;
-}
-
 
 // HEADER
 // LOGO
@@ -206,3 +201,5 @@ body {
       opacity: 1;
     }
 }
+
+
