@@ -20,8 +20,27 @@ body {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+section {
+  padding: 40px 0;
+  width: 100%;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 .text-title {
   text-transform: uppercase;
+}
+
+.underline {
+  margin: 0 auto 40px;
+  width: 80px;
+  height: 4px;
+  background-color: #d09f46;
 }
 
 .navbar-brand {
@@ -164,4 +183,16 @@ body {
     animation-timing-function: ease-out;
     opacity: 1;
   }
+}
+.section-about-us {
+  color: #333;
+}
+
+.about-us-card-title {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.about-us-text {
+  font-size: 14px;
 }/*# sourceMappingURL=style.css.map */

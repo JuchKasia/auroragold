@@ -1,6 +1,10 @@
 @use './reset';
 @use './color' as color;
 
+// @import  AOS from './aos';
+// @import 'aos/dist/aos.css'; // You can also use <link> for styles
+
+// AOS.init();
 
 html {
     scroll-padding-top: 116px; 
@@ -19,10 +23,28 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+section {
+    padding: 40px 0;
+    width: 100%;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 .text-title {
     text-transform: uppercase;
 }
 
+.underline {
+    margin: 0 auto 40px;
+    width: 80px;
+    height: 4px;
+    background-color: color.$main-color;
+}
 
 // HEADER
 // LOGO
@@ -178,4 +200,21 @@ body {
       animation-timing-function: ease-out;
       opacity: 1;
     }
+}
+
+
+// MAIN 
+// Section ABOUT US
+.section-about-us {
+    color: color.$gray;
+    // border: 1px solid red;
+}
+
+.about-us-card-title {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.about-us-text {
+    font-size: 14px;
 }
