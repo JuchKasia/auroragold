@@ -210,8 +210,35 @@ section {
     // border: 1px solid red;
 }
 
-.about-us-text {
+.about-us-text,
+.services-card-text {
     font-size: 14px;
 }
+
+// Section SERVICES
+.section-services {
+    color: color.$gray;
+}
+
+.services-card-title {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.services-hover {
+    margin: 10px 0;
+    transition: 0.5s;
+    // border: 2px solid red;
+}
+
+.services-hover:hover {
+    color: color.$main-color;
+}
+
+i {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
 
 
