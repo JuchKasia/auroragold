@@ -13,7 +13,7 @@ body {
   margin: 0 auto;
   color: #fff;
   font-family: "Montserrat", sans-serif;
-  background-color: black;
+  background-color: #ebecf2;
 }
 
 .shadow-bg {
@@ -188,11 +188,30 @@ section {
   color: #333;
 }
 
-.about-us-card-title {
+.about-us-text,
+.services-card-text {
+  font-size: 14px;
+}
+
+.section-services {
+  color: #333;
+}
+
+.services-card-title {
   font-size: 18px;
   text-transform: uppercase;
 }
 
-.about-us-text {
-  font-size: 14px;
+.services-hover {
+  margin: 10px 0;
+  transition: 0.5s;
+}
+
+.services-hover:hover {
+  color: #d09f46;
+}
+
+i {
+  margin-top: 20px;
+  font-size: 30px;
 }/*# sourceMappingURL=style.css.map */
