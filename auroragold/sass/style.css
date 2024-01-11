@@ -218,4 +218,21 @@ i {
 
 .section-portfolio {
   color: #333;
+}
+.section-portfolio .carousel-item {
+  height: 600px;
+}
+.section-portfolio .carousel-caption {
+  left: 0;
+  right: 0;
+  padding: 40px 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.section-portfolio .carousel-indicators {
+  padding: 20px;
+}
+.section-portfolio .carousel-control-prev-icon,
+.section-portfolio .carousel-control-next-icon {
+  width: 40px;
+  height: 40px;
 }/*# sourceMappingURL=style.css.map */
