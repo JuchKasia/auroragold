@@ -382,6 +382,43 @@ i {
                 }
             }
         }
+        .info-content {
+            display: flex;
+            flex-direction: column;
+            color: color.$bg-color;
+            // border: 2px solid red;
+            .info-subtitle {
+                margin: 0 auto;
+                margin-bottom: 20px;
+                font-size: 18px;
+                letter-spacing: 2px;
+                font-weight: bold;
+                text-transform: uppercase;
+                // border: 2px solid red;
+            }
+            .info-box {
+                width: 220px;
+                padding-top: 5px;
+                .info-item {
+                    display: flex;
+                    // align-self: center;
+                    .info-container {
+                        margin: 0 auto;
+                        padding-left: 10px;
+                        color: color.$bg-color;
+                        list-style: none;
+                        text-decoration: none;
+                        transition: color 0.5s;
+                        .info-name {
+                            margin: 0;
+                        }
+                    }
+                    .info-container:hover {
+                        color: color.$main-color;
+                    }
+                }
+            }
+        }
 
     }
 }

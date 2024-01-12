@@ -350,4 +350,38 @@ i {
 .footer .contact-wrapper .contacts-content .contacts-box .contacts-item .phone-title {
   margin-bottom: 0;
   font-size: 16px;
+}
+.footer .contact-wrapper .info-content {
+  display: flex;
+  flex-direction: column;
+  color: #ebecf2;
+}
+.footer .contact-wrapper .info-content .info-subtitle {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.footer .contact-wrapper .info-content .info-box {
+  width: 220px;
+  padding-top: 5px;
+}
+.footer .contact-wrapper .info-content .info-box .info-item {
+  display: flex;
+}
+.footer .contact-wrapper .info-content .info-box .info-item .info-container {
+  margin: 0 auto;
+  padding-left: 10px;
+  color: #ebecf2;
+  list-style: none;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+.footer .contact-wrapper .info-content .info-box .info-item .info-container .info-name {
+  margin: 0;
+}
+.footer .contact-wrapper .info-content .info-box .info-item .info-container:hover {
+  color: #d09f46;
 }/*# sourceMappingURL=style.css.map */
