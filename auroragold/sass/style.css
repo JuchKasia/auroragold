@@ -260,6 +260,7 @@ i {
 
 .footer {
   position: relative;
+  padding-bottom: 20px;
   background-image: url("../assets/img/warsaw-640.jpg");
   background-size: cover;
   background-position: bottom;
@@ -418,4 +419,13 @@ i {
 }
 .footer .contact-wrapper .social-content .social-box .social-item .social-container:hover {
   color: #d09f46;
+}
+
+.author-container {
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.author-container .author-text {
+  margin: 0 auto;
+  letter-spacing: 1px;
 }/*# sourceMappingURL=style.css.map */

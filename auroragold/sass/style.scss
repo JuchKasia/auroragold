@@ -287,12 +287,14 @@ i {
 // Section CONTACT
 .footer {
     position: relative;
+    padding-bottom: 20px;
     background-image: url('../assets/img/warsaw-640.jpg');
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
     color: color.$bg-color;
     z-index: 0;
+    // border: 2px solid red;
     .footer-shadow {
         position: absolute;
         top: 0;
@@ -459,3 +461,14 @@ i {
 
     }
 }
+
+.author-container {
+    margin: 0 auto;
+    margin-top: 10px;
+    // border: 2px solid red;
+    .author-text {
+        margin: 0 auto;
+        letter-spacing: 1px;
+    }
+}
+
