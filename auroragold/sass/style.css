@@ -384,4 +384,38 @@ i {
 }
 .footer .contact-wrapper .info-content .info-box .info-item .info-container:hover {
   color: #d09f46;
+}
+.footer .contact-wrapper .social-content {
+  display: flex;
+  flex-direction: column;
+  color: #ebecf2;
+}
+.footer .contact-wrapper .social-content .social-box {
+  margin-top: 45px;
+  padding-top: 10px;
+}
+.footer .contact-wrapper .social-content .social-box .social-item {
+  padding: 0 20px;
+}
+.footer .contact-wrapper .social-content .social-box .social-item .social-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  gap: 20px;
+  color: #ebecf2;
+  list-style: none;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+.footer .contact-wrapper .social-content .social-box .social-item .social-container i {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+.footer .contact-wrapper .social-content .social-box .social-item .social-container .social-name {
+  margin: 0;
+  font-size: 16px;
+}
+.footer .contact-wrapper .social-content .social-box .social-item .social-container:hover {
+  color: #d09f46;
 }/*# sourceMappingURL=style.css.map */

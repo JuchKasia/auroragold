@@ -419,6 +419,43 @@ i {
                 }
             }
         }
+        .social-content {
+            display: flex;
+            flex-direction: column;
+            color: color.$bg-color;
+            // border: 2px solid red;
+            .social-box {
+                margin-top: 45px;
+                padding-top: 10px;
+                // width: 280px;
+                // border: 2px solid red;
+                .social-item {
+                    padding: 0 20px;
+                    .social-container {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: left;
+                        align-items: center;
+                        gap: 20px;
+                        color: color.$bg-color;
+                        list-style: none;
+                        text-decoration: none;
+                        transition: color 0.5s;
+                        i {
+                            margin-bottom: 0;
+                            font-size: 16px;
+                        }
+                        .social-name {
+                            margin: 0;
+                            font-size: 16px;
+                        }
+                    }
+                    .social-container:hover {
+                        color: color.$main-color;
+                    }
+                }
+            }
+        }
 
     }
 }
