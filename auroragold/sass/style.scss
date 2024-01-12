@@ -212,10 +212,9 @@ section {
 .about-us-box {
     width: 80%;
     margin: 0 auto;
-}
-.about-us-text,
-.services-card-text {
+    .about-us-text {
     font-size: 18px;
+    }
 }
 
 // Section SERVICES
@@ -242,7 +241,9 @@ section {
     font-size: 18px;
     text-transform: uppercase;
 }
-
+.services-card-text {
+    font-size: 16px;
+}
 .services-hover {
     margin: 10px 0;
     transition: 0.5s;
