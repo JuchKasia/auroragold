@@ -192,9 +192,7 @@ section {
   width: 80%;
   margin: 0 auto;
 }
-
-.about-us-text,
-.services-card-text {
+.about-us-box .about-us-text {
   font-size: 18px;
 }
 
@@ -219,6 +217,10 @@ section {
 .services-card-title {
   font-size: 18px;
   text-transform: uppercase;
+}
+
+.services-card-text {
+  font-size: 16px;
 }
 
 .services-hover {
@@ -254,4 +256,176 @@ i {
 .section-portfolio .carousel-control-next-icon {
   width: 40px;
   height: 40px;
+}
+
+.footer {
+  position: relative;
+  padding-bottom: 20px;
+  background-image: url("../assets/img/warsaw-640.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  color: #ebecf2;
+  z-index: 0;
+}
+.footer .footer-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-attachment: fixed;
+  z-index: -1;
+}
+.footer i {
+  color: #ebecf2;
+  padding-top: 5px;
+  margin: 0;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+}
+.footer .contact-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.footer .contact-wrapper .contacts-content {
+  display: flex;
+  flex-direction: column;
+  color: #ebecf2;
+}
+.footer .contact-wrapper .contacts-content .contact-subtitle {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.footer .contact-wrapper .contacts-content .location-box {
+  width: 280px;
+}
+.footer .contact-wrapper .contacts-content .location-box .location-item {
+  display: flex;
+}
+.footer .contact-wrapper .contacts-content .location-box .location-item .map {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #ebecf2;
+  list-style: none;
+  text-decoration: none;
+  gap: 20px;
+  transition: color 0.5s;
+}
+.footer .contact-wrapper .contacts-content .location-box .location-item .map:hover {
+  color: #d09f46;
+}
+.footer .contact-wrapper .contacts-content .location-box .location-item .location-title {
+  margin-bottom: 0;
+}
+.footer .contact-wrapper .contacts-content .contacts-box {
+  width: 280px;
+}
+.footer .contact-wrapper .contacts-content .contacts-box .contacts-item {
+  display: flex;
+}
+.footer .contact-wrapper .contacts-content .contacts-box .contacts-item .email,
+.footer .contact-wrapper .contacts-content .contacts-box .contacts-item .phone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  color: #ebecf2;
+  list-style: none;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+.footer .contact-wrapper .contacts-content .contacts-box .contacts-item .email:hover,
+.footer .contact-wrapper .contacts-content .contacts-box .contacts-item .phone:hover {
+  color: #d09f46;
+}
+.footer .contact-wrapper .contacts-content .contacts-box .contacts-item .email-title,
+.footer .contact-wrapper .contacts-content .contacts-box .contacts-item .phone-title {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+.footer .contact-wrapper .info-content {
+  display: flex;
+  flex-direction: column;
+  color: #ebecf2;
+}
+.footer .contact-wrapper .info-content .info-subtitle {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.footer .contact-wrapper .info-content .info-box {
+  width: 220px;
+  padding-top: 5px;
+}
+.footer .contact-wrapper .info-content .info-box .info-item {
+  display: flex;
+}
+.footer .contact-wrapper .info-content .info-box .info-item .info-container {
+  margin: 0 auto;
+  padding-left: 10px;
+  color: #ebecf2;
+  list-style: none;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+.footer .contact-wrapper .info-content .info-box .info-item .info-container .info-name {
+  margin: 0;
+}
+.footer .contact-wrapper .info-content .info-box .info-item .info-container:hover {
+  color: #d09f46;
+}
+.footer .contact-wrapper .social-content {
+  display: flex;
+  flex-direction: column;
+  color: #ebecf2;
+}
+.footer .contact-wrapper .social-content .social-box {
+  margin-top: 45px;
+  padding-top: 10px;
+}
+.footer .contact-wrapper .social-content .social-box .social-item {
+  padding: 0 20px;
+}
+.footer .contact-wrapper .social-content .social-box .social-item .social-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  gap: 20px;
+  color: #ebecf2;
+  list-style: none;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+.footer .contact-wrapper .social-content .social-box .social-item .social-container i {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+.footer .contact-wrapper .social-content .social-box .social-item .social-container .social-name {
+  margin: 0;
+  font-size: 16px;
+}
+.footer .contact-wrapper .social-content .social-box .social-item .social-container:hover {
+  color: #d09f46;
+}
+
+.author-container {
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.author-container .author-text {
+  margin: 0 auto;
+  letter-spacing: 1px;
 }/*# sourceMappingURL=style.css.map */

@@ -212,10 +212,9 @@ section {
 .about-us-box {
     width: 80%;
     margin: 0 auto;
-}
-.about-us-text,
-.services-card-text {
+    .about-us-text {
     font-size: 18px;
+    }
 }
 
 // Section SERVICES
@@ -242,7 +241,9 @@ section {
     font-size: 18px;
     text-transform: uppercase;
 }
-
+.services-card-text {
+    font-size: 16px;
+}
 .services-hover {
     margin: 10px 0;
     transition: 0.5s;
@@ -281,3 +282,193 @@ i {
     }
 
 }
+
+// FOOTER
+// Section CONTACT
+.footer {
+    position: relative;
+    padding-bottom: 20px;
+    background-image: url('../assets/img/warsaw-640.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    color: color.$bg-color;
+    z-index: 0;
+    // border: 2px solid red;
+    .footer-shadow {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(0, 0, 0, 0.7);
+        // background-color: rgb(0, 9, 27, 0.7);
+        background-attachment: fixed;
+        z-index: -1;
+    }
+    i {
+        color: color.$bg-color;
+        padding-top: 5px;
+        margin: 0;
+        font-size: 20px;
+        width: 30px;
+        height: 30px;
+        // border: 2px solid red;
+    }
+    .contact-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .contacts-content {
+            display: flex;
+            flex-direction: column;
+            color: color.$bg-color;
+            // border: 2px solid red;
+            .contact-subtitle {
+                margin: 0 auto;
+                margin-bottom: 20px;
+                font-size: 18px;
+                letter-spacing: 2px;
+                font-weight: bold;
+                text-transform: uppercase;
+                // border: 2px solid red;
+            }
+            .location-box {
+                width: 280px;
+                // border: 2px solid green;
+                .location-item {
+                    display: flex;
+                    .map {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        color: color.$bg-color;
+                        list-style: none;
+                        text-decoration: none;
+                        gap: 20px;
+                        transition: color 0.5s;
+                    }
+                    .map:hover {
+                        color: color.$main-color;
+                    }
+                    .location-title {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+            .contacts-box {
+                width: 280px;
+                // border: 2px solid green;
+                .contacts-item {
+                    display: flex;
+                    .email,
+                    .phone {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        gap: 20px;
+                        color: color.$bg-color;
+                        list-style: none;
+                        text-decoration: none;
+                        transition: color 0.5s;
+                    }
+                    .email:hover,
+                    .phone:hover {
+                        color: color.$main-color;
+                    }
+                    .email-title,
+                    .phone-title {
+                        margin-bottom: 0;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+        .info-content {
+            display: flex;
+            flex-direction: column;
+            color: color.$bg-color;
+            // border: 2px solid red;
+            .info-subtitle {
+                margin: 0 auto;
+                margin-bottom: 20px;
+                font-size: 18px;
+                letter-spacing: 2px;
+                font-weight: bold;
+                text-transform: uppercase;
+                // border: 2px solid red;
+            }
+            .info-box {
+                width: 220px;
+                padding-top: 5px;
+                .info-item {
+                    display: flex;
+                    // align-self: center;
+                    .info-container {
+                        margin: 0 auto;
+                        padding-left: 10px;
+                        color: color.$bg-color;
+                        list-style: none;
+                        text-decoration: none;
+                        transition: color 0.5s;
+                        .info-name {
+                            margin: 0;
+                        }
+                    }
+                    .info-container:hover {
+                        color: color.$main-color;
+                    }
+                }
+            }
+        }
+        .social-content {
+            display: flex;
+            flex-direction: column;
+            color: color.$bg-color;
+            // border: 2px solid red;
+            .social-box {
+                margin-top: 45px;
+                padding-top: 10px;
+                // width: 280px;
+                // border: 2px solid red;
+                .social-item {
+                    padding: 0 20px;
+                    .social-container {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: left;
+                        align-items: center;
+                        gap: 20px;
+                        color: color.$bg-color;
+                        list-style: none;
+                        text-decoration: none;
+                        transition: color 0.5s;
+                        i {
+                            margin-bottom: 0;
+                            font-size: 16px;
+                        }
+                        .social-name {
+                            margin: 0;
+                            font-size: 16px;
+                        }
+                    }
+                    .social-container:hover {
+                        color: color.$main-color;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+.author-container {
+    margin: 0 auto;
+    margin-top: 10px;
+    // border: 2px solid red;
+    .author-text {
+        margin: 0 auto;
+        letter-spacing: 1px;
+    }
+}
+
