@@ -258,6 +258,20 @@ i {
   height: 40px;
 }
 
+.section-help {
+  color: #333;
+}
+
+.help-box {
+  width: 80%;
+  margin: 0 auto;
+}
+.help-box .help-text {
+  margin: 30px 0 10px 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
 .footer {
   position: relative;
   padding-bottom: 20px;
