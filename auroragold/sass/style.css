@@ -442,4 +442,15 @@ i {
 .author-container .author-text {
   margin: 0 auto;
   letter-spacing: 1px;
+}
+
+@media (min-width: 1200px) {
+  .hero-img {
+    background-image: url("../assets/img/hero-img/main-lamborgini1920.jpg");
+  }
+}
+@media (min-width: 992px) {
+  .section-services {
+    background-image: url("../assets/img/broken-car-1280.jpg");
+  }
 }/*# sourceMappingURL=style.css.map */
