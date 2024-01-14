@@ -490,3 +490,16 @@ i {
     }
 }
 
+
+@media (min-width: 1200px) {
+    // HEADER
+    .hero-img {
+        background-image: url('../assets/img/hero-img/main-lamborgini1920.jpg');
+    }
+}
+
+@media (min-width: 992px) {
+    .section-services {
+        background-image: url('../assets/img/broken-car-1280.jpg');
+    }
+}
