@@ -453,4 +453,10 @@ i {
   .section-services {
     background-image: url("../assets/img/broken-car-1280.jpg");
   }
+}
+@media (max-width: 768px) {
+  .contact-subtitle,
+  .info-subtitle {
+    letter-spacing: 1.5px;
+  }
 }/*# sourceMappingURL=style.css.map */
