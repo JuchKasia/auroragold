@@ -345,6 +345,7 @@ i {
 }
 .footer .contact-wrapper .contacts-content .contacts-box .contacts-item {
   display: flex;
+  border: 2px solid green;
 }
 .footer .contact-wrapper .contacts-content .contacts-box .contacts-item .email,
 .footer .contact-wrapper .contacts-content .contacts-box .contacts-item .phone {
