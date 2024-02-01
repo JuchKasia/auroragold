@@ -243,6 +243,12 @@ section {
     }
 }
 
+.services-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .services-card-title {
     font-size: 18px;
     text-transform: uppercase;
