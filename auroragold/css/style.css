@@ -192,6 +192,11 @@ section {
   width: 80%;
   margin: 0 auto;
 }
+.about-us-box .about-us-title {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
 .about-us-box .about-us-text {
   font-size: 18px;
 }
