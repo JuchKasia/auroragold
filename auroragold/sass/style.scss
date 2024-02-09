@@ -6,7 +6,12 @@
 
 // AOS.init();
 
+.scroll {
+    overflow: hidden;
+}
+
 html {
+    scroll-behavior: smooth;
     scroll-padding-top: 116px; 
 }
 
