@@ -1,6 +1,6 @@
 const blur = document.querySelector('.blur');
 const body = document.body;
-
+const iconBurger = document.querySelector('.navbar-toggler');
 
 document.addEventListener('DOMContentLoaded', function() {
     const nav = document.querySelector('.navbar');
@@ -17,6 +17,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     linkItems.forEach(item => item.addEventListener('click', () => {
         navList.classList.remove('show');
+        blur.classList.remove('open');
+        body.classList.remove('scroll');
     }))
 
     window.addEventListener('scroll', addShadow);
