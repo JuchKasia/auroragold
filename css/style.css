@@ -244,6 +244,9 @@ section {
   flex-wrap: wrap;
   justify-content: center;
 }
+.services-row .text-center {
+  border: 2px solid red;
+}
 
 .services-card-title {
   font-size: 18px;
